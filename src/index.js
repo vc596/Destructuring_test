@@ -4,8 +4,10 @@ import cars from "./practice";
 
 const[honda , tesla] = cars;
 const {speedStats: {topSpeed: hondaTopSpeed}} = honda
-const {speedStats: {topSpeed: TeslaTopSpeed}} = tesla
-const 
+const {speedStats: {topSpeed: teslaTopSpeed}} = tesla
+const {coloursByPopularity: {topColour:hondaTopColour}} = honda
+const {coloursByPopularity: {topColour:teslaTopColour}} = tesla
+
 
  ReactDOM.render(
    <table>
